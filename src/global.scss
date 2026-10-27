@@ -1,0 +1,23 @@
+
+@use "./styles/variables" as vars;
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: vars.$black-bg;
+    color: vars.$white-text;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.falar {
+    padding: 1rem;
+}
+
+.parar {
+    padding: 1rem;
+}
